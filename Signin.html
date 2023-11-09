@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="fullcontainer banner" id="homesection">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="/images/image.jpeg" alt="NGO logo" >
+                </div>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML/index.html">Home</a>
+                            </li>
+                            <li><a href="/HTML/aboutus.html">About Us</a>
+                            </li>
+                            <li><a href="/HTML/programs.html">Programs</a>
+                            </li>
+                            <li><a href="/HTML/joinus.html">Join Us</a>
+                            </li>
+                            <li><a href="/HTML/gallery.html">Gallery</a>
+                            </li>
+                            <li><a href="/HTML/Signin.html"> sign in</a>
+                            </li>
+                        </ul>
+                    </nav>
+            </div>
+        </header>
+            <!--header ends here-->
+    <div id="body_div">
+        <form id="form" action="">
+            <div id="form_div">
+                <div id="form_heading">
+                    <h1>Registration</h1>
+                    <p>Please fill in this form to create an account</p>
+                </div>
+                <div id="form_body">
+                    <label class="form_label" for="user_name">
+                        User Name:
+                        <input id="user_name" type="text" placeholder="Enter Your Name" required>
+                    </label>
+                    <label class="form_label" for="user_email">
+                        E-mail Address:
+                        <input id="user_email" type="text" placeholder="Enter Your Email Address" required>
+                        <span id="invalid_email">Invalid Email</span>
+                    </label>
+                    <label class="form_label" for="user_phone">
+                        Phone Number:
+                        <input id="user_phone" type="text" placeholder="Enter Your phone Number" required>
+                        <span id="invalid_phone">Phone number must contains 10 digits</span>
+                    </label>
+                    <label class="form_label" for="user_password">
+                        Password:
+                        <input id="user_password" type="password" placeholder="Enter a password" required>
+                        <span id="contains_fail">Password must contains 8-16 character including atleast a Capital and Small letter, Numerical and  Special Character</span>
+                    </label>
+                    <label class="form_label" for="conf_password">
+                        Confirm Password:
+                        <input id="conf_password" type="password" placeholder="Re-enter password" required>
+                        <span id="wrong_pass">Password didn't match</span>
+                    </label>
+                </div>
+                <button id="form_button" type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+    <footer>
+        <div class="container">
+            <div class="newslettercontainer">
+                <img src="/images/image.jpeg" alt="ngo logo" srcset="">
+                <p>&copy;2023 Prochesta All Right Reserved &#8482;</p>
+                <input type="text" placeholder="Pls Enter Your Email id"/>
+            </div>
+            <div class="linkscontainer">
+                <div class="title">Useful Links</div>
+                    <ul>
+                        <li><a href="/HTML/index.html">Home</a>
+                        </li>
+                        <li><a href="/HTML/aboutus.html">About Us</a>
+                        </li>
+                        <li><a href="/HTML/programs.html">Programs</a>
+                        </li>
+                        <li><a href="/HTML/joinus.html">Join Us</a>
+                        </li>
+                        <li><a href="/HTML/gallery.html">Gallery</a>
+                        </li>
+                        <li><a href="javascript:void(0);"> Sign In</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="connectcontainer">
+                <div class="title">Connect with Us</div>
+                <p>Bidhanpally 2nd Lane <br>
+                    Barrackpore,Pin-700122
+                </p>
+                <p>info@ngo.com</p>
+                <p>(+91)7003578179</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
